@@ -1,0 +1,13 @@
+{
+    "version": "0.1.0",
+    "command": "c:\\Python27\\python",
+    "args": ["TestDB.py"],
+    "showOutput":"Always",
+    "problemMatcher": {
+        "fileLocation": ["relative", "${workspaceRoot}"],
+        "pattern": {
+            "regexp": "^(.*)+s$",
+            "message": 1
+        }
+    }
+}
