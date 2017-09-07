@@ -15,7 +15,7 @@ Const=Const(109,0);
 
 def TableDumpDayWise( tableName,startDay_date,endDay_date,dumpFile,dumpLocationWithFileName):
 
-    db = mysql.connector.connect(host='localhost', database='purple',user='root', password='Takay1#$ane', port=3306)
+    db = mysql.connector.connect(host='localhost', database='purple',user='root', password='****', port=3306)
     con = db.cursor()
     query="select * into outfile %s fields terminated by ',' enclosed by '`' from "+tableName+" where starttime >= %s and starttime < %s limit 0,10;"
     con.execute (query,(dumpLocationWithFileName,startDay_date,endDay_date))
