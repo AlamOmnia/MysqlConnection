@@ -9,7 +9,7 @@ from time import sleep
 
 
 Const=collections.namedtuple('Const','Host User Password Port')
-Const=Const('localhost','root','Takay1#$ane',3306);
+Const=Const('localhost','root','****',3306);
 ignoreTableList=['cdrloaded','cdrerror']
 specialChars=['$'];
 
